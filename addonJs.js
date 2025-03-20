@@ -35,7 +35,7 @@ document.querySelectorAll('.record').forEach(zapisy => {
 })
 
 function przyciskiSemestry() {
-    const daneSemestry = fetch("http://127.0.0.1:8000/pobierzSemestry", {
+    const daneSemestry = fetch("https://raw.githubusercontent.com/Marfael/rozszerzenieExtranet/refs/heads/main/templates/semestry.txt", {
         method: "GET",
     })
     .then(function(response) { return response.json(); })
