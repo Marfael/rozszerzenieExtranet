@@ -1,0 +1,16 @@
+{
+    "manifest_version": 3,
+    "name": "ExtranetRozszerzenie",
+    "description": "Extranet",
+    "version": "0.1",
+    "action": {
+      "default_icon": "logo.png"
+    },
+    "content_scripts": [
+   {
+     "matches": ["https://extranet-azymut.e-sence.net.pl/pulpit"],
+     "css": ["addon.css"],
+     "js": ["addonJs.js"]
+   }
+ ]
+  }

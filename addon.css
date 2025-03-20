@@ -1,0 +1,130 @@
+/* #content {
+    background-color: #202124;
+}
+
+#footer, #header, #content-wrapper, #footer-wrapper, #header-wrapper, .header-top {
+    background-color: #202124 !important;
+}
+
+.header-wrapper-r, .header-wrapper-l  {
+    background: none !important;
+}
+
+body {
+    color: #f8f9fa !important;
+}
+
+.box-documents .box-content ul.tabs,
+#box-documents .box-content ul.tabs {
+    background: rgb(49 50 55) 0 0 repeat-x !important;
+}
+
+.box-documents .box-content,
+#box-documents .box-content {
+    border: 3px solid #202124 !important;
+    border-radius: 5px;
+}
+
+.ui-widget-content {
+    color: #f8f9fa !important;
+    background: none !important;
+}
+
+a {
+    color: #309adf !important;
+}
+
+ul.persons li a {
+    color: #f8f9fa !important
+}
+
+.header-top {
+    color: #f8f9fa !important
+}
+
+.box {
+    background-color: rgb(49 50 55) !important;
+    border: 0px !important;
+    border-radius: 15px;
+    margin-bottom: 5px;
+    padding: 15px;
+}
+
+.news {
+    border: none !important;
+}
+
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default {
+    background: none !important;
+}
+
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default {
+    color: #f8f9fa !important
+}
+
+.ui-state-default a, .ui-state-default a:link, .ui-state-default a:visited {
+    color: #f8f9fa !important
+}
+
+ul.tabs {
+    border-bottom: none !important;
+    border: 0px !important;
+}
+
+ul.tabs li {
+    border: 0px !important;
+}
+
+ul {
+    border: 0px !important;
+}
+
+.box-header h3 {
+    color: #f8f9fa !important
+}
+
+.silver {
+    color: #a0afbd !important
+}
+
+#box-community .box-content {
+    border: none !important;
+} */
+
+#animacjaLadowanie {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 60px;
+}
+
+#box-documents {
+    position: relative;
+}
+
+#wyslijUsprawiedliwienie {
+    margin-top: 5px;
+}
+
+#box-usprawiedliwienie {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+input[type="button"] {
+    appearance: auto;
+    user-select: none;
+    text-align: center;
+    cursor: default;
+    box-sizing: border-box;
+    white-space: pre;
+    padding-block: 1px;
+    padding-inline: 6px;
+    border-width: 2px;
+    border-style: outset;
+    border-color: buttonborder;
+    border-image: initial;
+}
